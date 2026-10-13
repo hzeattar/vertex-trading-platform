@@ -663,10 +663,122 @@
             font-size: 14px;
         }
 
-        @media (max-width: 900px) {
-            .hero-title { font-size: 38px; }
+        /* Visual Showcase Section */
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 28px;
+            margin: 36px 0 70px;
+        }
+
+        .showcase-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-glass);
+            border-radius: 24px;
+            overflow: hidden;
+            backdrop-filter: blur(16px);
+            transition: transform 0.3s, border-color 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .showcase-card:hover {
+            border-color: var(--border-highlight);
+            transform: translateY(-4px);
+        }
+
+        .showcase-bar {
+            background: rgba(10, 15, 26, 0.95);
+            padding: 12px 18px;
+            border-bottom: 1px solid var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+        }
+
+        .traffic-lights {
+            display: flex;
+            gap: 6px;
+        }
+
+        .light {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .light.red { background: #ef4444; }
+        .light.yellow { background: #f59e0b; }
+        .light.green { background: #10b981; }
+
+        .browser-tab {
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+        }
+
+        .live-pill {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        .img-frame {
+            padding: 12px;
+            background: #04060b;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .img-frame img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .showcase-footer {
+            padding: 20px 24px;
+            background: rgba(13, 18, 30, 0.5);
+            border-top: 1px solid var(--border-glass);
+        }
+
+        .showcase-footer h4 {
+            font-size: 18px;
+            margin-bottom: 6px;
+            color: #fff;
+        }
+
+        .showcase-footer p {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 992px) {
+            .showcase-grid { grid-template-columns: 1fr; }
+            .hero-title { font-size: 42px; }
             .metrics-grid { grid-template-columns: repeat(2, 1fr); }
             .pricing-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 600px) {
+            nav { flex-direction: column; gap: 14px; padding: 16px 0; }
+            .nav-links { width: 100%; justify-content: center; flex-wrap: wrap; gap: 12px; }
+            .hero-title { font-size: 32px; }
+            .hero-subtitle { font-size: 16px; }
+            .metrics-grid { grid-template-columns: 1fr; }
+            .btn-primary, .btn-secondary, .btn-nav, .contact-btn { width: 100%; justify-content: center; }
+            .wallet-pill { width: 100%; flex-direction: column; word-break: break-all; }
         }
     </style>
 </head>
@@ -746,6 +858,55 @@
                 <div class="metric-card">
                     <div class="metric-number">24/7</div>
                     <div class="metric-label">Automated Bot Funnel</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Interface Showcase -->
+        <section id="showcase" style="padding: 20px 0 60px;">
+            <div class="section-header">
+                <div class="hero-badge" style="margin-bottom: 12px;">Interface Preview & High-Fidelity Mockups</div>
+                <h2 class="section-title">Institutional Trading Terminal & Mobile App</h2>
+                <p class="section-desc">Experience the precision of the MEX Vertex Pro web terminal and native mobile interface engineered for high-frequency execution.</p>
+            </div>
+
+            <div class="showcase-grid">
+                <!-- Desktop Web Terminal -->
+                <div class="showcase-card showcase-desktop">
+                    <div class="showcase-bar">
+                        <div class="traffic-lights">
+                            <span class="light red"></span>
+                            <span class="light yellow"></span>
+                            <span class="light green"></span>
+                        </div>
+                        <div class="browser-tab">mex-vertex-pro.trading/terminal/BTCUSDT</div>
+                        <div class="live-pill">LIVE WEBSOCKET 15MS</div>
+                    </div>
+                    <div class="img-frame">
+                        <img src="assets/trading_desktop.jpg" alt="MEX Vertex Pro Web Trading Terminal" loading="lazy">
+                    </div>
+                    <div class="showcase-footer">
+                        <h4>Institutional Web Trading Terminal</h4>
+                        <p>Full depth chart, Level-2 order book, TradingView indicators, instant market/limit buy & sell execution panels.</p>
+                    </div>
+                </div>
+
+                <!-- Mobile Trading App -->
+                <div class="showcase-card showcase-mobile">
+                    <div class="showcase-bar">
+                        <div class="traffic-lights">
+                            <span class="light green"></span>
+                        </div>
+                        <div class="browser-tab">iOS & Android App</div>
+                        <div class="live-pill">READY TO PUBLISH</div>
+                    </div>
+                    <div class="img-frame" style="text-align: center; background: #050811;">
+                        <img src="assets/trading_mobile.jpg" alt="MEX Vertex Pro Mobile Trading App" style="max-height: 480px; width: auto; max-width: 100%; border-radius: 16px; margin: 0 auto; display: block;" loading="lazy">
+                    </div>
+                    <div class="showcase-footer">
+                        <h4>Native Mobile App & Mini App</h4>
+                        <p>One-touch trade execution, push alerts, portfolio ledger, and embedded Telegram Mini App support.</p>
+                    </div>
                 </div>
             </div>
         </section>
