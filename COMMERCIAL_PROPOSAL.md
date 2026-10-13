@@ -1,83 +1,79 @@
-# عرض تجاري رسمي: منصة التداول والوساطة المالية المتكاملة (MEX Vertex Pro)
+# Commercial Proposal: MEX Vertex Pro Institutional Multi-Asset Trading Platform
 
-**مقدم من:** moly Code / Virtual Tech Company  
-**تاريخ العرض:** 13 أكتوبر 2026  
-**قنوات التواصل الرسمية:**  
-- **تيليجرام:** [@moly_codebot](https://t.me/moly_codebot) | المطور المباشر: [@Human_recycling](https://t.me/Human_recycling)  
-- **البريد الإلكتروني:** `molycode_24219@maxxspace.com`  
-*(ملاحظة: التواصل حصراً عبر التيليجرام والبريد الإلكتروني)*
-
----
-
-## 1. نبذة عن المنصة (Executive Overview)
-منصة **MEX Vertex Pro** هي نظام وساطة وتداول متكامل بنظام White-Label جاهز للتشغيل الفوري، يتيح لأصحاب الأعمال وغرف التداول وقنوات التوصيات إطلاق بورصة ومنصة تداول خاصة بهم بعلامتهم التجارية ودومينهم الخاص خلال 24-48 ساعة فقط.
-
-المنصة مطورة بأعلى معايير الأداء والسرعة، ومزودة بروابط مباشرة مع أسواق المال العالمية، ونظام بوتات تيليجرام مدمج لإدارة عمليات الإيداع والسحب والتسويق الآلي.
+**Issued by:** moly Code / Virtual Tech Company  
+**Date:** October 2026  
+**Official Communication Channels:**  
+- **Telegram Bot:** [@moly_codebot](https://t.me/moly_codebot) | Direct Executive Desk: [@Human_recycling](https://t.me/Human_recycling)  
+- **Direct Email:** `molycode_24219@maxxspace.com`  
+- **Live Landing Page (Cloudflare Tunnel):** [Live Showcase](https://therapeutic-enlargement-tend-colored.trycloudflare.com/trading)  
+- **GitHub Repository:** [hzeattar/vertex-trading-platform](https://github.com/hzeattar/vertex-trading-platform)
 
 ---
 
-## 2. الميزات الفنية والتشغيلية (Core Features)
+## 1. Executive Summary
+**MEX Vertex Pro** is a turnkey, institutional-grade white-label trading and brokerage engine engineered for fintech entrepreneurs, proprietary trading firms, signal providers, and digital asset brokerages. It enables you to launch and operate a fully branded multi-asset trading venue within 24 to 48 hours.
 
-### 📈 محرك تداول متعدد الأسواق (Multi-Asset Trading Engine)
-- **سوق العملات المشفرة (Crypto):** ربط مباشر بلحظة واحدة مع أسعار Binance Futures مع تحديث فوري لكافة أزواج التداول (BTC, ETH, SOL, etc.).
-- **سوق العملات الأجنبية (Forex):** أسعار حية ومحدثة للعملات الرئيسية (EUR/USD, GBP/USD, USD/JPY, etc.).
-- **الأسهم والأسواق العربية:** دعم أسهم السوق السعودي (تداول) والأسهم الأمريكية الكبرى.
-- **السلع والعقود الآجلة (Commodities & Futures):** الذهب (XAU/USD)، الفضة، النفط الخام، ومؤشرات S&P 500 و Nasdaq.
-- **رسوم بيانية احترافية:** دعم TradingView Charts مع كافة المؤشرات الفنية وأدوات التحليل.
-
-### 🤖 بوت تيليجرام للإيداع والسحب (Telegram Deposit & Withdraw Bot)
-- بوت تيليجرام مستقل يعمل كـ بوابة مالية.
-- إمكانية طلب الإيداع واختيار طريقة الدفع المناسبة للعميل.
-- رفع إيصال التحويل وصور الإيداع داخل البوت.
-- إشعار فوري لمدير النظام مع إمكانية القبول أو الرفض وتحديث رصيد المحفظة تلقائياً.
-
-### 🎯 نظام LeadBot لجلب ومتابعة العملاء (Automated Client Funnel)
-- نظام حملات إعلانية مدمج على تيليجرام بروابط تتبع مخصصة لكل مسوق أو قناة.
-- توزيع العملاء المهتمين تلقائياً على مدراء الحسابات (Account Managers).
-- نظام متابعة آلي (Automated Follow-up) عبر مهام Cron الدورية لإعادة استهداف العملاء وتحويلهم إلى متداولين نشطين.
-- لوحة تحكم وإحصائيات كاملة لقياس كفاءة الحملات وتحويلات العملاء.
-
-### 🛡️ لوحة تحكم الإدارة والرقابة المالية (Backoffice CRM & Admin Panel)
-- إدارة المستخدمين والمحافظ وتعديل الأرصدة بضغطة زر.
-- تحكم كامل بطرق الدفع المعتمدة ونسب العمولات والرافعة المالية.
-- حماية وتشفير عالي المستوى للبيانات والعمليات.
-
-### ☁️ سهولة النشر والاستضافة (Turnkey Cloud Deployment)
-- جاهزة للنشر السريع على **Railway** أو أي خادم سحابي (VPS / Dedicated Server).
-- دعم قواعد بيانات مرنة (MySQL / SQLite).
-- تطبيق وب متجاوب (Desktop & Mobile) ودعم العمل كـ **Telegram Mini App**.
+The platform is designed with ultra-low latency execution, direct connections to Binance APIs and global market data feeds, alongside an integrated Telegram Bot for automated client deposits, KYC receipts, withdrawals, and customer relationship acquisition (LeadBot CRM).
 
 ---
 
-## 3. باقات الترخيص والتسعير الرسمي (Pricing Plans)
+## 2. Technical & Architectural Capabilities
 
-| الباقة | السعر الدولي (USDT) | السعر المحلي لمصر (EGP) | ما تشمله الباقة |
-| :--- | :--- | :--- | :--- |
-| **1. الرخصة الأساسية (Turnkey Code)** | **$499 USDT** | **25,000 ج.م** | كود المصدر كاملاً (Frontend + Backend + Bot) + دليل التثبيت |
-| **2. الباقة الاحترافية (White-Label Pro)** | **$1,499 USDT** | **75,000 ج.م** | نشر كامل على سيرفر خاص + ربط دومينك وهوية شركتك + LeadBot + دعم شهر |
-| **3. جناح الوساطة الشامل (Enterprise Broker)** | **$3,499 USDT** | **175,000 ج.م** | تخصيص كامل لبوابات الدفع + قمع تسويقي شامل + إدارة مخاطر + دعم مخصص |
+### 📈 Multi-Asset Trading Engine
+- **Cryptocurrency Markets:** Direct real-time WebSocket connection to Binance Spot and Futures with instant order books and price updates across 300+ crypto pairs (BTC, ETH, SOL, etc.).
+- **Forex & Currencies:** Real-time liquidity and pricing for major and minor currency pairs (EUR/USD, GBP/USD, USD/JPY).
+- **Equities & Indices:** S&P 500, Nasdaq, and global stock markets.
+- **Commodities:** Real-time spot and CFD feeds for Gold (XAU/USD), Silver, and Crude Oil.
+- **Interactive Charting:** TradingView-grade responsive charts with indicators, timeframes, and technical drawing tools.
+
+### 🤖 Telegram Deposit & Cashout Bot
+- Autonomous conversational bot acting as an automated cashier and gateway.
+- Clients select their settlement network and submit transaction hashes or deposit receipts.
+- Instant administrative alerts with one-click approval/rejection and real-time wallet ledger updates.
+
+### 🎯 LeadBot Automated Acquisition CRM
+- Built-in Telegram advertising funnel with dedicated tracking referral links for affiliates and influencers.
+- Automated routing of prospects to dedicated account managers.
+- Cron-driven automated follow-up sequences to convert leads into active depositors.
+- Real-time conversion analytics and campaign attribution dashboard.
+
+### 🛡️ Backoffice Control & Risk Center
+- Granular Role-Based Access Control (RBAC) for admins, compliance officers, and support staff.
+- Dynamic control over margin leverage, spread fees, commission schedules, and risk limits.
+- Full ledger audit trails and cryptographic intent verification for all transactions.
+
+### ☁️ Turnkey Cloud Infrastructure
+- Production-ready Docker containers and Nginx reverse proxy configurations.
+- 1-click deployment on Railway, AWS, DigitalOcean, or private dedicated VPS.
+- High-performance SQLite or PostgreSQL backend.
 
 ---
 
-## 4. قنوات وطرق الدفع المعتمدة حصراً (Payment Routing)
+## 3. Commercial Licensing & Pricing
 
-تطبق شركتنا سياسة صارمة لفصل قنوات الدفع حسب نطاق العميل:
+| License Package | Pricing (USDT) | Key Inclusions |
+| :--- | :--- | :--- |
+| **1. Semi-Annual License** | **$700 USDT** | 6 Months full platform access, source code, Telegram cashier bot, documentation, standard updates. |
+| **2. Annual License (Featured)** | **$1,000 USDT** | 12 Months full enterprise access, LeadBot CRM acquisition suite, assisted server deployment, priority support. |
+| **3. Lifetime Self-Hosted (No APIs)** | **$7,500 USDT** | 100% Perpetual unencrypted source code ownership on client's server, zero recurring fees, plug your own API keys. |
+| **4. Lifetime Turnkey (+ APIs)** | **$12,000 USDT** | Permanent turnkey buyout with pre-integrated Binance Futures & Spot APIs, live multi-asset feeds, white-glove setup. |
 
-### 🇪🇬 للعملاء داخل جمهورية مصر العربية:
-الدفع متاح **حصراً** بالجنيه المصري عبر الوسائل التالية (لا يتم قبول أي عملة أخرى للعميل المصري):
-1. **إنستاباي (InstaPay مباشر):** `01144472763`
-2. **فودافون كاش (Vodafone Cash):** `01140280944`
+---
 
-### 🌍 للعملاء الدوليين (خارج مصر):
-الدفع متاح **حصراً** بعملة USDT عبر شبكة ترون (TRC20):
-- **الشبكة:** Tron Network (TRC20)
-- **عنوان المحفظة المعتمد:**
+## 4. Global Settlement
+
+All commercial transactions settle via blockchain rails for instant global settlement:
+- **Settlement Currency:** USDT
+- **Network:** TRC20 (Tron)
+- **Settlement Address:**  
   `TLtJPSeqmzV7QrsZmqNS59BdSP6uSWF5im`
 
+*(Note: Direct localized bank/wallet settlement options are available by private arrangement for verified local clients).*
+
 ---
 
-## 5. خطوات التنفيذ والتسليم الفوري
-1. **التواصل وتأكيد المتطلبات:** عبر تيليجرام [@moly_codebot](https://t.me/moly_codebot) أو البريد `molycode_24219@maxxspace.com`.
-2. **إصدار الفاتورة الرسمية:** يتم إصدار فاتورة فورية بالرقم المرجعي والمبلغ المحدد.
-3. **التحويل وإرسال الإشعار:** إرسال صورة التحويل (للعميل المصري) أو هاش العملية TxID (للعميل الدولي).
-4. **التسليم والتشغيل:** تسليم الكود المصدري فوراً أو بدء مرحلة النشر والربط السحابي مع العميل.
+## 5. Deployment & Onboarding Workflow
+1. **Selection & Invoicing:** Select your package and contact us via Telegram [@moly_codebot](https://t.me/moly_codebot) or email `molycode_24219@maxxspace.com`.
+2. **Settlement Confirmation:** Complete the transfer and submit the transaction hash (TxID).
+3. **Repository Transfer & Handover:** Immediate access to the private repository, source code archive, Docker images, and setup documentation.
+4. **Assisted Launch:** Our senior systems engineer guides your DNS, SSL, and server deployment to go live.
